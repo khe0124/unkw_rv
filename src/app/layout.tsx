@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Providers } from "./providers";
-import "./globals.css";
+import "../styles/globals.css";
+import { useParams } from "next/navigation";
+import { useTranslation } from "@/i18n/client";
+import { LocaleTypes } from "@/i18n/settings";
 
 export const metadata: Metadata = {
   title: "ㅁㄴㅇㄹㅁㄴㄹㅁㄴㄹㅁㄴㄹㅁㄴp",
